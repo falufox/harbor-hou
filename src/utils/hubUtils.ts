@@ -145,7 +145,12 @@ export function getStatusInfo(status: string): {
   color: string; 
   bgColor: string 
 } {
-  const statusMap = {
+  const statusMap: Record<string, { 
+    label: string; 
+    labelEs: string; 
+    color: string; 
+    bgColor: string 
+  }> = {
     'open': { 
       label: 'Open', 
       labelEs: 'Abierto', 

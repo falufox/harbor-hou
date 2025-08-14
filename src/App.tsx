@@ -1,4 +1,3 @@
-import React from 'react';
 import { LocationProvider } from './contexts/LocationContext';
 import { HomePage } from './pages/HomePage';
 
