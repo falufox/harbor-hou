@@ -1,11 +1,11 @@
 import { LocationProvider } from './contexts/LocationContext';
-import { HomePage } from './pages/HomePage';
+import { AppleStyleHomePage } from './pages/AppleStyleHomePage';
 
 function App() {
   return (
     <LocationProvider>
       <div className="App">
-        <HomePage />
+        <AppleStyleHomePage />
       </div>
     </LocationProvider>
   );
